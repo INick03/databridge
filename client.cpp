@@ -1,4 +1,3 @@
-// client.cpp
 #include <iostream>
 #include <fstream>
 #include <cstring>
@@ -13,7 +12,6 @@ struct message {
 };
 
 void upload_file(int server_socket) {
-    // Send upload operation
     std::string operation = "upload";
 
     std::cout << "Enter filename to upload: ";
